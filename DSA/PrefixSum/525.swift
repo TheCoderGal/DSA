@@ -53,6 +53,7 @@ class ContiguousArray {
         
         var prefixSum = 0
         var hashMap: [Int: Int] = [0: -1]
+        
         for i in 0..<nums.count {
             if nums[i] == 0 {
                      prefixSum -= 1
