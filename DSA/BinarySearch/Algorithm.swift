@@ -17,7 +17,7 @@ class SolutionSimpleBS {
         var r = nums.count - 1
         var l = 0
         
-        while l<r {
+        while l<=r {
             
             var mid = l + (r-l)/2
             if target < nums[mid] {
