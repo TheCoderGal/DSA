@@ -21,7 +21,7 @@ class FindirstAndLastOccurance {
 //            if nums[l] == target {
 //                
 //                if !didFind {
-//                    didFind = true
+//                    didFind =e true
 //                    result.removeAll()
 //                }
 //                result.append(l)
@@ -64,7 +64,6 @@ class FindirstAndLastOccurance {
             
             if target < nums[mid] {
                 r = mid-1
-                
             } else if target > nums[mid] {
                  l = mid + 1
             } else {
@@ -81,4 +80,3 @@ class FindirstAndLastOccurance {
     }
     
 }
-
