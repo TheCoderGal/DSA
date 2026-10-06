@@ -17,8 +17,6 @@ class ReplaceElementWithLargestTotheRight {
             res[i] = maxRight
             maxRight = max(maxRight, arr[i])
         }
-
-
        return res
     }
 }
